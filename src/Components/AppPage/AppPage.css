@@ -1,0 +1,125 @@
+.App_page{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* align-items: center;
+    justify-content: space-between; */
+    gap: 5px;
+    width: 100%;
+    background: var(--Secondary-Main-Secondary, #1259E4);
+}
+
+.App_page_left{
+    /* flex-basis:40% ; it will use the 40% as space */
+
+   margin-right: 100px;
+   position: relative;
+}
+.App_page_left img{
+    width: 700px;   
+    border-radius: 40px;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+   
+   }
+   .App_page_right{
+    /* flex-basis: 56%; the remaining 4% will be the space between the columns */
+    margin: 50px auto;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding-left: 50px;
+   
+    padding-right: 30px;
+    padding-top: 50px;
+    
+    
+   }
+
+.App_page_right h3{
+    color: var(--White-01, #FDFDFD);
+font-family: Nunito;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 30px;
+}
+.App_page_right h3 span{
+    color: var(--Primary-04, #64D5C8);
+font-family: Nunito;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.download-options{
+    display: inline-flex;
+   gap: 30px;
+   
+    
+}
+
+.apple{
+    width: 200px;
+   border-radius: 30px;
+   
+}
+.playstore{
+    width: 200px;
+    border-radius: 30px;
+    
+}
+
+@media (max-width: 768px){
+    .App_page_left img{
+width: 500px;
+    }
+    .App_page_right{
+      
+        width: 100%;
+        margin: 40px 0px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding-left: 0px;
+   
+    padding-right: 30px;
+    padding-top: 50px;
+    
+    }
+    .App_page_left img{
+        width: 600px;   
+        border-radius: 40px;
+        height: 90%;
+        
+        right: -70px;
+        top: 5px;
+       
+       }
+       .App_page_right h3{
+        font-size: 38px;
+       }
+       .App_page_right h3 span{
+        font-size: 38px;
+       }
+       .download-options{
+        display: inline-flex;
+       gap: 15px;
+       padding-left: 15px;
+    }
+    
+    .apple{
+        width: 100px;
+       border-radius: 30px;
+       
+    }
+    .playstore{
+        width: 100px;
+        border-radius: 30px;
+        
+    }
+}
+
