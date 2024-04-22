@@ -203,3 +203,14 @@ color: var(--Accent-Main-Accent, #073169);
     }
    
   }
+  @media (max-width: 412px){
+    .About_us{
+        width: 200%;
+    }
+    .services_div{
+        display: block;
+        justify-content: space-between;
+        
+      
+    }
+  }

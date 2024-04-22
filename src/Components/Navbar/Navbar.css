@@ -142,9 +142,10 @@ cursor: pointer;
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 412px){
     .navbar{
         margin: 20px 3px;
+        width: 200%;
     }
     .nav_btn{
         display: none;

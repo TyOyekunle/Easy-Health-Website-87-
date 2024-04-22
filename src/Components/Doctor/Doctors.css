@@ -102,3 +102,10 @@ cursor:pointer;
 .five_star_icon{
     width: 60px;
 }
+
+
+@media (max-width: 412px){
+    .doctor_div{
+        width: 200%;
+    }
+}

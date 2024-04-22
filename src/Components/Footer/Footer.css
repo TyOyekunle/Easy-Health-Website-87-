@@ -88,3 +88,10 @@ font-weight: 800;
 .download_icons img{
     width: 40px;
 }
+
+@media (max-width: 412px){
+    .footer{
+        width: 200%;
+    }
+    
+}

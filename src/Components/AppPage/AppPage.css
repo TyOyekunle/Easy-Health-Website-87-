@@ -123,3 +123,9 @@ width: 500px;
     }
 }
 
+
+@media (max-width: 412px){
+    .App_page{
+        width: 200%;
+    }
+}
