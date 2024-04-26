@@ -21,11 +21,7 @@
    display: flex;
    justify-content: space-between;
 }
-.top_icons img{
-    width: 10%;
-    height: 30px;
-   
-}
+
 .icon_div{
     width: 100%;
    
@@ -201,6 +197,9 @@ color: var(--Accent-Main-Accent, #073169);
         padding-bottom: 10px;
         
     }
+    .top_icons{
+       display: none;
+    }
    
   }
   @media (max-width: 412px){
@@ -212,5 +211,8 @@ color: var(--Accent-Main-Accent, #073169);
         justify-content: space-between;
         
       
+    }
+    .top_icons{
+        display: none;
     }
   }
