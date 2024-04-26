@@ -9,6 +9,8 @@
     color: #0c3b98;
     text-align: center;
     position: relative;
+   
+    padding: 0px var(--app-block-padding);
       
 }
 .services_body{
@@ -54,9 +56,7 @@ color: var(--Accent-Main-Accent, #073169);
     gap: 4em;
     height: 100%;
   padding: 20px;
-   margin: 2px 1em;
-  
-   
+   margin: 2px 1em; 
    
 }
 .About_us h4{

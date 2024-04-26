@@ -5,7 +5,7 @@ import AppStoreDownload from '../../assets/apple-store-download.jpg'
 import PlayStoreDownload from '../../assets/google-play-download.png'
 import doublephone from '../../assets/doublephone.png'
 
-const AppPage = () => {
+export const AppPage = () => {
     return (
         <div id='AppPage' className='App_page container'>
            

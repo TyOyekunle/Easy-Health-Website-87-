@@ -1,7 +1,7 @@
 import React from 'react'
 import './Title.css'
 
-const Title = ({title, subTitle}) => {
+export const Title = ({title, subTitle}) => {
   return (
     <div className='title'>
       <h2>{title}</h2>

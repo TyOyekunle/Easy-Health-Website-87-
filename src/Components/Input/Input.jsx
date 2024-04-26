@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Input = () => {
+export const Input = () => {
   return (
     <label>
         <span> Email</span>

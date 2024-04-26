@@ -11,6 +11,7 @@
     gap: 20px;
     width: 100%;
     background: var(--Primary-01, #D0F2EE);
+    /* background-color: red; */
 }
 .about_page_left{
      /* flex-basis:40% ; it will use the 40% as space */

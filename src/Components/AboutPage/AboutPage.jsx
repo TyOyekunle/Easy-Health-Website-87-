@@ -5,7 +5,7 @@ import play_icon from '../../assets/play_icon.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
-const AboutPage = ( setPlayState) => {
+export const AboutPage = ( setPlayState) => {
     return (
         <div id='AboutPage' className='about_page container'>
             <div className='about_page_left'>

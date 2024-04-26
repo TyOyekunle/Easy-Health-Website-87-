@@ -1,14 +1,14 @@
 import React, {useState} from 'react'
 import './Navbar.css' 
-import logo from '../../assets/logo.png'
-import search from '../../assets/search.png'
+import logo from '../../assets/logo.svg'
+// import search from '../../assets/search.png'
 import underline from '../../assets/underline.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open_icon from '../../assets/sidebar.png'
 import menu_close_icon from '../../assets/menu_close.png'
 import { useRef } from 'react';
 
-const Navbar = () => {
+ export const Navbar = () => {
 
 const [menu, setMenu] = useState("Hero"); //this is a state variable
 
@@ -37,13 +37,15 @@ return (
        
         <li><AnchorLink className='anchor-link'  href='#Hero' > <p onClick={()=>setMenu("Hero")}> Home</p></AnchorLink> {menu==="Hero"? <img className='underline' src={underline} alt=''/>:<></>} </li>
          <li><AnchorLink className='anchor-link' offset={50} href='#About' ><p onClick={()=>setMenu("About")}> Services </p></AnchorLink> {menu==="About"? <img className='underline' src={underline} alt=''/>:<></>}</li>
-        <li> <AnchorLink className='anchor-link' offset={50} href='#Doctors' ><p onClick={()=>setMenu("Doctors")}>Providers</p></AnchorLink> {menu==="Doctors"? <img className='underline' src={underline} alt=''/>:<></>}</li>
-        <li> <AnchorLink className='anchor-link' offset={50} href='#AboutPage'><p onClick={()=>setMenu("AboutPage")}>Blog</p></AnchorLink> {menu==="AboutPage"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+        <li> <AnchorLink className='anchor-link' offset={50} href='#AboutPage'><p onClick={()=>setMenu("AboutPage")}>About Us</p></AnchorLink> {menu==="AboutPage"? <img className='underline' src={underline} alt=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#Testimonials' ><p onClick={()=>setMenu("Testimonials")}>Testimonials</p></AnchorLink>{menu==="Testimonials"? <img className='underline' src={underline} alt=''/>:<></>}</li>
         <li> <AnchorLink className='anchor-link' offset={50} href='#Contact' ><p onClick={()=>setMenu("Contact")}>Contact Us</p></AnchorLink> {menu==="Contact"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+        {/* <li> <AnchorLink className='anchor-link' offset={50} href='#Doctors' ><p onClick={()=>setMenu("Doctors")}>Providers</p></AnchorLink> {menu==="Doctors"? <img className='underline' src={underline} alt=''/>:<></>}</li> */}
+        <li><button className='bluebtn'> <a href="/OurServices"> Login</a> </button></li>
+        <li><button className='btn'> <a href="/ContactPage"> Signup</a></button></li>
           </ul>
-          <button className='nav_btn'><AnchorLink className='anchor-link' offset={50} href='#Contact'> Download App </AnchorLink></button>
-   
+          {/* <button className='nav_btn'><AnchorLink className='anchor-link' offset={50} href='#Contact'> Download App </AnchorLink></button> */}
+        
         {/* <div className='search-div'>
         <ul className={mobileMenu?'': 'hide-mobile-menu' }>
       <li><a href=""> <img src={search} alt="" className='search-icon' /> </a></li>

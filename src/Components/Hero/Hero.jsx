@@ -8,7 +8,7 @@ import image_15k from '../../assets/15K+.png'
 import image_50 from '../../assets/50+.png'
 
 
-const Hero = () => {
+export const Hero = () => {
     return (
         <div id='Hero' className='hero container'>
             <div className='hero_left'>

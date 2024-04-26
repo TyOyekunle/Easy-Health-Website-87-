@@ -7,6 +7,9 @@
   font-family: "Nunito Sans", sans-serif;
  
 }
+:root{
+  --app-block-padding: 50px;
+}
 body{
   background-color: #F5F5F5;
 }
@@ -39,4 +42,8 @@ a{
 }
 
 /* media query */
-
+@media (max-width: 768px){
+  :root{
+    --app-block-padding: 30px;
+  }
+}

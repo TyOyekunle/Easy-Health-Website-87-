@@ -5,7 +5,7 @@ import email from '../../assets/email.png'
 import phone from '../../assets/phone.svg'
 import location from '../../assets/location-icon.svg'
 
-const Contact = () => {
+export const Contact = () => {
     const [result, setResult] = React.useState("");
 
    const onSubmit = async (event) => { //when the form is submitted, it will trigger this onsubmit function

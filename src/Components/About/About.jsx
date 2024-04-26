@@ -5,16 +5,16 @@ import Digital_health from '../../assets/first-hero-image.png'
 import doctor from '../../assets/doctor.png'
 import pharmacy from '../../assets/pharmacy.png'
 import ambulance from '../../assets/ambulance.png'
-import manulife from '../../assets/manulife.png'
-import allianz from '../../assets/allianz.png'
-import blibli from '../../assets/blibli.png'
-import bcalife from '../../assets/bcalife.png'
-import fwd from '../../assets/fwd.png'
+import manulife from '../../assets/manulife.svg'
+import allianz from '../../assets/allianz.svg'
+import blibli from '../../assets/blibli.svg'
+import bcalife from '../../assets/bcalife.svg'
+import fwd from '../../assets/fwd.svg'
 import iconsDiv from '../../assets/servicesicongroup.png'
 
 
 
-const About = () => {
+export const About = () => {
   return (
     <div id='About' className='About_us'>
       <div className='top_icons'>

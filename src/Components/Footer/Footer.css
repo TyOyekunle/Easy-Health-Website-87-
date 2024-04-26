@@ -9,7 +9,9 @@
     display: flex;
     justify-content: space-around;
    padding-top: 30px;
-    border-top: 1px solid #797979;
+   margin-top: -5px;
+    /* border-top: 1px solid #797979; */
+    /* background-color: red; */
    
 
 }
@@ -33,7 +35,7 @@ padding-bottom: 20px;
 
 }
 .logo{
-    width: 100px;
+    width: 150px;
 }
 .footer-list{
     display: block;
@@ -53,18 +55,26 @@ font-weight: 800;
     color: #172048;
 }
 .footer-div-bottom{
- margin: 10px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+ margin: 10px ;
+    
     border-top: 1px solid #797979;
+    color: #172048;
     padding: 15px 0; 
     font-size: 12px;
+   
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .footer-div-bottom ul li{
     list-style: none;
     display: inline-block;
-    margin-left:20px ;
+   align-items: center;
+   
+ 
+   
     
 }
 .footer-div-top ul li:hover{

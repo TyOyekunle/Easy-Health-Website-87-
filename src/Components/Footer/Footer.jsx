@@ -1,16 +1,18 @@
 import React from 'react'
 import './Footer.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 import Home from '../../assets/Home.png'
 import Playstore from '../../assets/playstore.png'
 import Iphone_store from '../../assets/iphone_store.svg'
 import email from '../../assets/email.png'
 import phone from '../../assets/phone.svg'
 import location from '../../assets/location-icon.svg'
+import footericons from '../../assets/footericons.svg'
+import linkedinicon from '../../assets/linkedinicon.svg'
 
 
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className='footer'>
         <div className='footer-div-top'>
@@ -50,10 +52,10 @@ Remember, you’re not alone. <br /> Reach out, seek support, <br />and prioriti
             </div>
         </div>
         <div className='footer-div-bottom'>
-      <p>© 2024 EasyHealth. All rights reserved.</p>
+      <p>Copyright© 2024 @mindmates all rights reserved.</p>
       <ul>
-        <li> Terms of Service</li>
-        <li> Privacy Policy</li>
+        <li><img src={footericons} alt="" /></li>
+        <li> <img src={linkedinicon} alt="" /></li>
 
       </ul>
       </div>
