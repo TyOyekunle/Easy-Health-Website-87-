@@ -9,6 +9,7 @@ import phone from '../../assets/phone.svg'
 import location from '../../assets/location-icon.svg'
 import footericons from '../../assets/footericons.svg'
 import linkedinicon from '../../assets/linkedinicon.svg'
+import {Link} from 'react-router-dom'
 
 
 
@@ -47,7 +48,8 @@ Remember, you’re not alone. <br /> Reach out, seek support, <br />and prioriti
             </div>
             <div className='footer-list'>
                 <p> Links</p>
-               <li> Privacy Policy </li>
+               <li> <Link to="/privacy-policy">Privacy Policy</Link> </li>
+               
             <li> Terms of Use </li>
             </div>
         </div>

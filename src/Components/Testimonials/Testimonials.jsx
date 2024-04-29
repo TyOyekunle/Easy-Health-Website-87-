@@ -9,7 +9,7 @@ import DrOlawale from '../../assets/DrOlawale.png'
 import back_arrow from '../../assets/back-arrow.png'
 import next_arrow from '../../assets/next-arrow.png'
 
-const Testimonials = () => {
+ export const Testimonials = () => {
  // code for the slider and arrows.
   const slider = useRef();  //used to select/access the ul tag
   let tx = 0; //tx is translate x.(as in transform: translateX(-50%);) we are initializing it to 0.

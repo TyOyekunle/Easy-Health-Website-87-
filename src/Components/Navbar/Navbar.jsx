@@ -7,6 +7,9 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open_icon from '../../assets/sidebar.png'
 import menu_close_icon from '../../assets/menu_close.png'
 import { useRef } from 'react';
+import {Routes, Route, Link} from 'react-router-dom'
+import OurServices from '../../Pages/OurServices/OurServices'
+
 
  export const Navbar = () => {
 
@@ -28,21 +31,37 @@ const closeMenu = () =>{
 //  }
 
 return (
-    <div className='navbar'>
+    <nav className='navbar'>
       <img src={logo} alt="" className='logo' />
       <img src={menu_open_icon} onClick={openMenu} alt="" className='nav-mob-open'  />
    
       <ul ref= {menuRef} className='nav-menu' >  {/* if mobilemenu is true we will add empty string. if it is false,we wil add the hide classname hide-mobile-menu */}
         <img src={menu_close_icon} onClick={closeMenu} alt="" className='nav-mob-close'/>
+
+        <li><Link className='anchor-link'  to='/' > <p onClick={()=>setMenu("Hero")} >  Home </p></Link> {menu==="Hero"? <img className='underline' src={underline} alt=''/>:<></>} </li>
+         <li><Link className='anchor-link' offset={50} to='/our-services' ><p onClick={()=>setMenu("About")}>  Services  </p></Link> {menu==="About"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+        <li> <Link className='anchor-link' offset={50} to='/our-services'><p onClick={()=>setMenu("AboutPage")}>About Us</p></Link> {menu==="AboutPage"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+        <li><Link className='anchor-link' offset={50} to='/testimonials' ><p onClick={()=>setMenu("Testimonials")}>Testimonials</p></Link>{menu==="Testimonials"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+      <li><Link className='anchor-link' offset={50} to='/Contact' ><p onClick={()=>setMenu("Contact")}>Contact Us</p></Link>{menu==="Contact"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+        
+        
+          {/* <li> <Link to="/contact-us"> Contact Us </Link></li> */}
+
+        <li><button className='bluebtn'> <Link to="/login"> Login </Link> </button></li>
+        <li><button className='btn'>  <Link to="/signup"> Signup</Link></button></li>
        
-        <li><AnchorLink className='anchor-link'  href='#Hero' > <p onClick={()=>setMenu("Hero")}> Home</p></AnchorLink> {menu==="Hero"? <img className='underline' src={underline} alt=''/>:<></>} </li>
-         <li><AnchorLink className='anchor-link' offset={50} href='#About' ><p onClick={()=>setMenu("About")}> Services </p></AnchorLink> {menu==="About"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+       
+        {/* <li><AnchorLink className='anchor-link'  href='#Hero' > <p onClick={()=>setMenu("Hero")} >  Home </p></AnchorLink> {menu==="Hero"? <img className='underline' src={underline} alt=''/>:<></>} </li>
+         <li><AnchorLink className='anchor-link' offset={50} href='#About' ><p onClick={()=>setMenu("About")}>  Services  </p></AnchorLink> {menu==="About"? <img className='underline' src={underline} alt=''/>:<></>}</li>
         <li> <AnchorLink className='anchor-link' offset={50} href='#AboutPage'><p onClick={()=>setMenu("AboutPage")}>About Us</p></AnchorLink> {menu==="AboutPage"? <img className='underline' src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#Testimonials' ><p onClick={()=>setMenu("Testimonials")}>Testimonials</p></AnchorLink>{menu==="Testimonials"? <img className='underline' src={underline} alt=''/>:<></>}</li>
-        <li> <AnchorLink className='anchor-link' offset={50} href='#Contact' ><p onClick={()=>setMenu("Contact")}>Contact Us</p></AnchorLink> {menu==="Contact"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#Testimonials' ><p onClick={()=>setMenu("Testimonials")}>Testimonials</p></AnchorLink>{menu==="Testimonials"? <img className='underline' src={underline} alt=''/>:<></>}</li> */}
+        
+       
+     
+        {/* <li> <AnchorLink className='anchor-link' offset={50} href='#Contact' ><p onClick={()=>setMenu("Contact")}>Contact Us</p></AnchorLink> {menu==="Contact"? <img className='underline' src={underline} alt=''/>:<></>}</li> */}
         {/* <li> <AnchorLink className='anchor-link' offset={50} href='#Doctors' ><p onClick={()=>setMenu("Doctors")}>Providers</p></AnchorLink> {menu==="Doctors"? <img className='underline' src={underline} alt=''/>:<></>}</li> */}
-        <li><button className='bluebtn'> <a href="/OurServices"> Login</a> </button></li>
-        <li><button className='btn'> <a href="/ContactPage"> Signup</a></button></li>
+        
+     
           </ul>
           {/* <button className='nav_btn'><AnchorLink className='anchor-link' offset={50} href='#Contact'> Download App </AnchorLink></button> */}
         
@@ -55,7 +74,7 @@ return (
         </ul>
         </div> */}
 
-       </div>
+       </nav>
     
   )
 }

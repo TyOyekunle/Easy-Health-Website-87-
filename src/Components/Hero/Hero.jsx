@@ -6,6 +6,7 @@ import physician from '../../assets/Physician-home.png'
 import image_200 from '../../assets/200+.png'
 import image_15k from '../../assets/15K+.png'
 import image_50 from '../../assets/50+.png'
+import {Link} from 'react-router-dom'
 
 
 export const Hero = () => {
@@ -21,7 +22,8 @@ export const Hero = () => {
             
                 </div>
             
-            <button className='btn'><AnchorLink className='anchor-link' offset={50} href='#Contact'> Try Free Consultation</AnchorLink></button>
+            <button className='btn'><Link className='anchor-link' offset={50} to="/contact-us"> Try Free Consultation</Link></button>
+         
             
             <div className='hero_icon_class'>
                 <div className='icon_group'>
