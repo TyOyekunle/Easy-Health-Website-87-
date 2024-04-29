@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route, link} from 'react-router-dom'
+import {Routes, Route, Link} from 'react-router-dom'
 import {Landing} from './Pages/Landing/Landing'
 import {OurServices} from './Pages/OurServices/OurServices'
 import {ContactPage} from './Pages/ContactPage/ContactPage'
@@ -15,13 +15,13 @@ const App = () => {
         <div className='App'>
 
             <Routes>
-            <Route path='/' element={<Landing /> }/>
-           <Route path='/our-services' element= {<OurServices />} />
-           <Route path='/contact-us' element= {< ContactPage/>} />
-           <Route path='/testimonials' element= {< TestimonialsPage/>} />
-           <Route path='/login' element= {< ContactPage/>} />
-           <Route path='/signup' element= {< OurServices/>} />
-           <Route path='/privacy-policy' element= {< PrivacyPolicy/>} />
+            <Route path='/' element={<Landing /> }></Route>
+           <Route path='/our-services' element= {<OurServices />} ></Route>
+           <Route path='/contact-us' element= {< ContactPage/>} ></Route>
+           <Route path='/testimonials' element= {< TestimonialsPage/>} ></Route>
+           <Route path='/login' element= {< ContactPage/>} ></Route>
+           <Route path='/signup' element= {< OurServices/>} ></Route>
+           <Route path='/privacy-policy' element= {< PrivacyPolicy/>} ></Route>
 
            </Routes>
         </div>
