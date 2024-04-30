@@ -15,6 +15,7 @@
     
     display:grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
   
    
 
@@ -180,21 +181,27 @@ font-weight: 500;
 
   @media (min-width: 1023px) and (max-width: 1439px){
     .hero{
-      margin-top: -10px;
+      margin-top: -20px;
+    
     }
     .hero-right-image{
-      margin-top: 20%;
-      height: 60%;
+      
+      height: 90%;
+      background: url('../../assets/physician_bg.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    
       
     }
     .hero-text h1{
-      margin-top: 15px;
+      margin-top: 10px;
    color: var(--txt, #1A1A1A);
 font-family: Nunito;
-font-size: 52px;
+font-size: 42px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+
   
 
     }
@@ -203,17 +210,19 @@ line-height: normal;
     color: var(--White-10, #525252);
 text-align: justify;
 font-family: Nunito;
-font-size: 24px;
+font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+
+margin-top: -10px;
     
     }
     
     .decore{
       top: 31%;
-      width: 65%;
-      left: -6px;
+      width: 45%;
+      left: 55%;
     }
     
     .hero_icon_class{
@@ -225,16 +234,25 @@ line-height: normal;
       width: 70%;
       left: 5px;
       position: absolute;
-   bottom: 150px;
+   bottom: 20px;
     }
     .hero_icon_class img{
-      width: 100px;
+      width: 70%;
       padding-left: 20px;
+    }
+    .hero_left button{  
+      margin-top: -20px;
+      height: 40px;
+      font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  
     }
     
   }
 
-  @media (min-width: 767px) and (max-width: 1023px){
+  @media (min-width: 767px) and (max-width: 1022px){
 
     .hero{
       margin-top: -20px;
@@ -253,6 +271,7 @@ font-size: 42px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+
 
   
 
@@ -281,7 +300,7 @@ padding-bottom: 20px;
     .decore{
       top: 15.5%;
       width: 45%;
-      left: 100px;
+      left: 25%;
     }
     
     .hero_icon_class{
