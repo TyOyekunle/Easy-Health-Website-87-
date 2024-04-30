@@ -12,6 +12,7 @@
 }
 body{
   background-color: #F5F5F5;
+ 
 }
 a{
   text-decoration: none;
@@ -25,14 +26,15 @@ a{
   padding-right: 3%;
 }
 .btn{
-  background: #16c0ac;
+  background: var(--Primary-Main-Primary, #16C0AC);
   color: #0c3b98;
-  padding: 4px 15px;
+  padding: 8px 20px;
   font-size: 16px;
-  border-radius:30px;
+  border-radius:39px;
   cursor: pointer;
   border: 0;
   outline: 0;
+  box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.20);
   transition: 0.5s;
 }
 .btn:hover{
@@ -45,5 +47,11 @@ a{
 @media (max-width: 768px){
   :root{
     --app-block-padding: 30px;
+  }
+}
+@media screen and  (max-width: 430px){
+  body{
+  
+    width: 430px;
   }
 }

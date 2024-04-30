@@ -4,7 +4,7 @@ import {Landing} from './Pages/Landing/Landing'
 import {OurServices} from './Pages/OurServices/OurServices'
 import {ContactPage} from './Pages/ContactPage/ContactPage'
 import {TestimonialsPage} from './Pages/Testimonials/TestimonialsPage'
-import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy'
+import {PrivacyPolicy} from './Components/PrivacyPolicy/PrivacyPolicy'
 
 
 

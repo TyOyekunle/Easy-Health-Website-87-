@@ -26,7 +26,7 @@ export const About = () => {
       </div> 
       <div className='services_body'>
       {/* <img src={iconsDiv} alt="" className='icon_div'/> */}
-        <h1>
+      <h1>
           Our <span>Main Services </span><br /> Categories
         </h1>
       </div>
@@ -36,7 +36,7 @@ export const About = () => {
             <div className='Digital_care'>
        <img src={Digital_health} alt="" />
               <div className='Digital_health_font'>
-              <h4>Chat with doctor</h4>
+              <h4>Chat with a doctor</h4>
               
               <p>You can connect directly, quickly and easily, and there is no
                  need to doubt the quality of the consultation and treatment offered.</p>

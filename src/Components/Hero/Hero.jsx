@@ -7,6 +7,7 @@ import image_200 from '../../assets/200+.png'
 import image_15k from '../../assets/15K+.png'
 import image_50 from '../../assets/50+.png'
 import {Link} from 'react-router-dom'
+import hero_telehealth_img from '../../assets/hero_telehealth.png'
 
 
 export const Hero = () => {
@@ -20,10 +21,11 @@ export const Hero = () => {
               <p>Empower yourself with Easy Health, your one-stop solution for accessible and reliable healthcare services. Connect with qualified healthcare professionals, 
                 access educational resources, and take control of your well-being—all from the convenience of your fingertips.</p> <br /> 
             
+                <button className='btn'><Link className='anchor-link' offset={50} to="/contact-us"> Try Free Consultation</Link></button>
+         
                 </div>
             
-            <button className='btn'><Link className='anchor-link' offset={50} to="/contact-us"> Try Free Consultation</Link></button>
-         
+           
             
             <div className='hero_icon_class'>
                 <div className='icon_group'>

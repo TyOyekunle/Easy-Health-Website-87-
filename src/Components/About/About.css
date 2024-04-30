@@ -41,6 +41,8 @@ color: var(--Accent-Main-Accent, #073169);
     -webkit-text-fill-color: transparent;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
+    font-size: 64px;
+    
 }
 
 .services_heading{
@@ -67,6 +69,7 @@ color: var(--Accent-Main-Accent, #073169);
     margin-top: 5px;
     color: #3975e8;
     padding-right: 2px;
+    font-family: Nunito;
 
 }
 .About_us img{
@@ -144,7 +147,7 @@ color: var(--Accent-Main-Accent, #073169);
 }
 .pharmacy_services:hover{
     background: linear-gradient(170deg, #16CDAC -9.82%, #0C3B98 137.55%);
-   
+
     transform: translateY(-7px);
     color: #fff;
 }
@@ -183,7 +186,26 @@ color: var(--Accent-Main-Accent, #073169);
 }
 
 
-@media (max-width: 768px){
+@media (min-width: 767px) and (max-width: 1023px){
+    .About_us{
+        width: 150%;
+    }
+}
+
+@media (min-width: 431px)and  (max-width: 765px){
+    .About_us{
+        width: 150%;
+    }
+    .About_us span{
+        background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        font-size: larger;
+    }
+    
     .services_div{
         display: block;
         justify-content: space-between;
@@ -200,9 +222,19 @@ color: var(--Accent-Main-Accent, #073169);
     .top_icons{
        display: none;
     }
+    .Digital_care{
+        margin-bottom: 20px;
+    }
+    .pharmacy_services{
+        margin-bottom: 20px;
+    }
+    .Doctor_connect{
+        margin-bottom: 20px;
+    }
    
   }
-  @media (max-width: 412px){
+  /* @media (max-width: 412px){
+    
     .About_us{
         width: 200%;
     }
@@ -214,5 +246,192 @@ color: var(--Accent-Main-Accent, #073169);
     }
     .top_icons{
         display: none;
+    }
+  } */
+
+  @media (max-width: 430px){
+    
+    .About_us{
+        display: block;
+        height: 100%;
+       width: 200%;
+       
+        color: #0c3b98;
+        text-align: center;
+        position: relative;
+      
+        padding: 0px var(--app-block-padding);
+         
+    }
+    .services_body{
+       margin-top: 10px;
+       justify-content: center;
+    
+       
+     
+    }
+    .top_icons{
+       
+       display: none
+    }
+    
+    .About_us h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: var(--Accent-Main-Accent, #073169);
+    }
+    .About_us span{
+        background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+    }
+    
+    .services_heading{
+        padding: 20px;
+    }
+    .services_div{
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 4em;
+        height: 100%;
+      padding: 20px;
+       margin: 2px 1em; 
+       
+    }
+    .About_us h4{
+        font-size: 24px;
+        font-weight: 800;
+      line-height: 27px
+    }
+    .About_us p{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 5px;
+        color: #3975e8;
+        padding-right: 2px;
+    
+    }
+    .About_us img{
+        width: 150px;
+        height: 123px;
+    }
+    
+    .Digital_care{
+       display: block;
+       justify-content: space-between;
+       gap: 10px;
+       align-items: center;
+       padding-left: 8px;
+       padding-right: 8px;
+       background: var(--Primary-01, #D0F2EE);
+        border-radius: 20px;
+        color: #172048;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .Digital_care p{
+        color:  #172048;
+        
+    }
+    .Digital_care p:hover{
+     color: #fff;
+    }
+    .Digital_care:hover{
+        background: linear-gradient(170deg, #16CDAC -9.82%, #0C3B98 137.55%);
+        transform: translateY(-7px);
+        color: #fff;
+    }
+    
+    /* .Doctor_connect{
+        display: flex;
+        border: 5px dotted yellow;
+        justify-content: space-between;
+       gap: 10px;
+       align-items: center;
+    
+    } */
+    
+    .Doctor_connect{
+        display: block;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        padding-left: 8px;
+        padding-right: 8px;
+        background: var(--Primary-01, #D0F2EE);
+         border-radius: 20px;
+         color: #172048;
+         margin-bottom: 20px;
+     }
+     .Doctor_connect p{
+         color:  #172048;
+         
+     }
+     .Doctor_connect p:hover{
+      color: #fff;
+     }
+     .Doctor_connect:hover{
+         background: linear-gradient(170deg, #16CDAC -9.82%, #0C3B98 137.55%);
+         transform: translateY(-7px);
+         color: #fff;
+     }
+    
+    .pharmacy_services{
+        display: block;
+        justify-content: space-evenly;
+       align-items: left;
+     
+        border-radius: 20px;
+        padding-right: 8px;
+        background: var(--Primary-01, #D0F2EE);
+         color: #172048;
+         margin-bottom: 20px;
+    }
+    .pharmacy_services:hover{
+        background: linear-gradient(170deg, #16CDAC -9.82%, #0C3B98 137.55%);
+       
+        transform: translateY(-7px);
+        color: #fff;
+    }
+    .pharmacy_services p{
+        color:  #172048;
+        
+    }
+    .pharmacy_services p:hover{
+     color: #fff;
+    }
+    
+    
+    .ambulance_services{
+        display: block;
+        background: var(--Primary-01, #D0F2EE);
+        border-radius: 20px;
+        justify-content: space-evenly;
+       gap: 10px;
+       align-items: center;
+       padding-left: 8px;
+       padding-right: 8px;
+       color:  #172048;
+       margin-bottom: 20px;
+    }
+    .ambulance_services:hover{
+        background: linear-gradient(170deg, #16CDAC -9.82%, #0C3B98 137.55%);
+       
+        transform: translateY(-7px);
+        color: #fff;
+    }
+    .ambulance_services p{
+        color:  #172048;
+        
+    }
+    .ambulance_services p:hover{
+     color: #fff;
     }
   }

@@ -104,8 +104,29 @@ cursor:pointer;
 }
 
 
-@media (max-width: 412px){
+@media (min-width: 431px) and (max-width: 766px){
+    .doctor_div{
+        width: 150%;
+    }   
+}
+
+@media  (max-width: 430px){
     .doctor_div{
         width: 200%;
+        margin-top: -29px;
+      background-color: #fff;
+      position: relative;
+      padding: 0 80px;
+    }
+   
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+    .doctor_div{
+        width: 150%;
+        margin-top: -29px;
+      background-color: #fff;
+      position: relative;
+      padding: 0 80px;
     }
 }

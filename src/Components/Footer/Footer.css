@@ -99,9 +99,22 @@ font-weight: 800;
     width: 40px;
 }
 
-@media (max-width: 412px){
+
+@media (max-width: 430px){
     .footer{
         width: 200%;
     }
     
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+    .footer{
+        width: 150%;
+    }
+    
+}
+@media (min-width: 431px) and (max-width: 767px){
+    .footer{
+        width: 150%;
+    }
 }
