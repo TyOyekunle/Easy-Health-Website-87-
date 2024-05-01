@@ -210,7 +210,7 @@ line-height: normal;
     color: var(--White-10, #525252);
 text-align: justify;
 font-family: Nunito;
-font-size: 30px;
+font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -218,7 +218,7 @@ line-height: normal;
 margin-top: -10px;
     
     }
-    em{
+       em{
       background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
       background-clip: text;
       -webkit-background-clip: text;
