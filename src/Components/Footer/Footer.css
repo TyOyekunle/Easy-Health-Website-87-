@@ -105,7 +105,7 @@ font-weight: 800;
 
 @media (min-width: 1025px) and (max-width: 1441px){
     .footer{
-        width: 150%;
+        width: 100%;
     }
 }
 
@@ -116,7 +116,7 @@ font-weight: 800;
     
 }
 
-@media (min-width: 767px) and (max-width: 1023px){
+@media (min-width: 767px) and (max-width: 1024px){
     .footer{
         width: 150%;
     }

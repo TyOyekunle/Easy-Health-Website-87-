@@ -42,9 +42,9 @@ top: 50%;
 
 }
 
- @media (min-width: 1023px) and (max-width: 1440px){
+ @media (min-width: 1025px) and (max-width: 1440px){
     .ContactPage{
-        width: 150%;
+        width: 100%;
       
         
         
@@ -60,7 +60,7 @@ top: 50%;
         
     }
 }
-@media (min-width: 766px) and (max-width: 1022px){
+@media (min-width: 766px) and (max-width: 1024px){
     .ContactPage{
         width: 150%;
         background-size: contain;
