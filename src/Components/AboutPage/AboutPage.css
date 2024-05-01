@@ -61,6 +61,11 @@ line-height: normal;
 }
 .about_page_right span {
     color:#0c3b98;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .about_page_right button{
     margin-top:30px ;
@@ -162,7 +167,7 @@ line-height: normal;
         background: var(--Primary-01, #D0F2EE);
       
     }
-     .about_page_right span {
+     .about_page_right h1 span {
         color: var(--Secondary-Main-Secondary, #1259E4);
         font-family: Nunito;
         font-size: 40px;

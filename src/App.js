@@ -5,6 +5,7 @@ import {OurServices} from './Pages/OurServices/OurServices'
 import {ContactPage} from './Pages/ContactPage/ContactPage'
 import {TestimonialsPage} from './Pages/Testimonials/TestimonialsPage'
 import {PrivacyPolicy} from './Components/PrivacyPolicy/PrivacyPolicy'
+import {DashboardPage} from './Pages/DashboardPage/DashboardPage'
 
 
 
@@ -19,7 +20,7 @@ const App = () => {
            <Route path='/our-services' element= {<OurServices />} ></Route>
            <Route path='/contact-us' element= {< ContactPage />} ></Route>
            <Route path='/testimonials' element= {< TestimonialsPage />} ></Route>
-           <Route path='/login' element= {< ContactPage />} ></Route>
+           <Route path='/login' element= {< DashboardPage />} ></Route>
            <Route path='/signup' element= {< OurServices />} ></Route>
            <Route path='/privacy-policy' element= {< PrivacyPolicy />} ></Route>
 
