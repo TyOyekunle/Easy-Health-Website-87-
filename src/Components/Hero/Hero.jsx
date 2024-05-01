@@ -15,7 +15,7 @@ export const Hero = () => {
         <div id='Hero' className='hero container'>
             <div className='hero_left'>
             <div className='hero-text'>
-                <h1> Welcome to <span>Easy Health</span> - Your Gateway to Better Healthcare.</h1>
+                <h1> Welcome to <span>Easy Health</span> - Your <em>Gateway</em> to Better Healthcare.</h1>
                 <img src={Decore} alt="" className='decore'/>
                 <br />
               <p>Empower yourself with Easy Health, your one-stop solution for accessible and reliable healthcare services. Connect with qualified healthcare professionals, 
