@@ -47,9 +47,9 @@ top: 50%;
 
 @media (min-width: 1023px) and (max-width: 1438px){
     .Services-hero{
-        width: 150%; 
-        background: cover;
-        background-color: red;
+        width: 100%; 
+        background: contain;
+      
     } 
     .picture_page{
         position: relative;
