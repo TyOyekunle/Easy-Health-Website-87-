@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Easy-Health-Website-87-/static/css/main.be2efc3f.css",
-    "main.js": "/Easy-Health-Website-87-/static/js/main.7d2ef24d.js",
+    "main.css": "/Easy-Health-Website-87-/static/css/main.760c0393.css",
+    "main.js": "/Easy-Health-Website-87-/static/js/main.5ac98a69.js",
     "static/js/488.d139680a.chunk.js": "/Easy-Health-Website-87-/static/js/488.d139680a.chunk.js",
     "static/media/physician_bg.svg": "/Easy-Health-Website-87-/static/media/physician_bg.e17a883234f2f4b71f55.svg",
     "static/media/appointment_img.svg": "/Easy-Health-Website-87-/static/media/appointment_img.c0345c1b00d6fbb678e5ea87a9d1ee05.svg",
@@ -16,13 +16,13 @@
     "static/media/blibli.svg": "/Easy-Health-Website-87-/static/media/blibli.ba2863be5109dbbfadaa69e89b0c781e.svg",
     "static/media/healthcare.png": "/Easy-Health-Website-87-/static/media/healthcare.d621f586b6c2c6cf9086.png",
     "static/media/DrJamesWellington.png": "/Easy-Health-Website-87-/static/media/DrJamesWellington.c1de0d109a131a42241b.png",
+    "static/media/doublephone.svg": "/Easy-Health-Website-87-/static/media/doublephone.0454c9c771ffd87dc1efa87ea02b8adb.svg",
     "static/media/allianz.svg": "/Easy-Health-Website-87-/static/media/allianz.5a219297a93736658c57afdd98552a80.svg",
     "static/media/pictureframe.png": "/Easy-Health-Website-87-/static/media/pictureframe.7afdf385973908e2f731.png",
     "static/media/apple-store-download.jpg": "/Easy-Health-Website-87-/static/media/apple-store-download.d5bc6011ec4e43070d81.jpg",
     "static/media/ambulance.png": "/Easy-Health-Website-87-/static/media/ambulance.4993631a95445c03cd47.png",
     "static/media/fwd.svg": "/Easy-Health-Website-87-/static/media/fwd.3c1141fae81a372a539796bd53ce060f.svg",
     "static/media/manulife.svg": "/Easy-Health-Website-87-/static/media/manulife.ea4c42b4a9e77566ecc3d9805cc3ebc1.svg",
-    "static/media/doublephone.png": "/Easy-Health-Website-87-/static/media/doublephone.39e9ef11d0178bef7a99.png",
     "static/media/five-star.png": "/Easy-Health-Website-87-/static/media/five-star.71662dd355b6ad5a86c5.png",
     "static/media/bcalife.svg": "/Easy-Health-Website-87-/static/media/bcalife.6176cc0204c8cf2e83c6cf3a37756099.svg",
     "static/media/Home.png": "/Easy-Health-Website-87-/static/media/Home.e234103a1f05ec2e5cf2.png",
@@ -49,12 +49,12 @@
     "static/media/location-icon.svg": "/Easy-Health-Website-87-/static/media/location-icon.351870b901810823cc7db9f86f4e54f8.svg",
     "static/media/iphone_store.svg": "/Easy-Health-Website-87-/static/media/iphone_store.36bb7e39c3d2d09d6a2917e4e44267b0.svg",
     "index.html": "/Easy-Health-Website-87-/index.html",
-    "main.be2efc3f.css.map": "/Easy-Health-Website-87-/static/css/main.be2efc3f.css.map",
-    "main.7d2ef24d.js.map": "/Easy-Health-Website-87-/static/js/main.7d2ef24d.js.map",
+    "main.760c0393.css.map": "/Easy-Health-Website-87-/static/css/main.760c0393.css.map",
+    "main.5ac98a69.js.map": "/Easy-Health-Website-87-/static/js/main.5ac98a69.js.map",
     "488.d139680a.chunk.js.map": "/Easy-Health-Website-87-/static/js/488.d139680a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be2efc3f.css",
-    "static/js/main.7d2ef24d.js"
+    "static/css/main.760c0393.css",
+    "static/js/main.5ac98a69.js"
   ]
 }
