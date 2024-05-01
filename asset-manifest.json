@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Easy-Health-Website-87-/static/css/main.91210b29.css",
-    "main.js": "/Easy-Health-Website-87-/static/js/main.98f8cfc1.js",
+    "main.css": "/Easy-Health-Website-87-/static/css/main.75780bde.css",
+    "main.js": "/Easy-Health-Website-87-/static/js/main.e01589a5.js",
     "static/js/488.d139680a.chunk.js": "/Easy-Health-Website-87-/static/js/488.d139680a.chunk.js",
     "static/media/physician_bg.svg": "/Easy-Health-Website-87-/static/media/physician_bg.e17a883234f2f4b71f55.svg",
     "static/media/appointment_img.svg": "/Easy-Health-Website-87-/static/media/appointment_img.c0345c1b00d6fbb678e5ea87a9d1ee05.svg",
@@ -26,6 +26,7 @@
     "static/media/five-star.png": "/Easy-Health-Website-87-/static/media/five-star.71662dd355b6ad5a86c5.png",
     "static/media/bcalife.svg": "/Easy-Health-Website-87-/static/media/bcalife.6176cc0204c8cf2e83c6cf3a37756099.svg",
     "static/media/Home.png": "/Easy-Health-Website-87-/static/media/Home.e234103a1f05ec2e5cf2.png",
+    "static/media/Victoria.svg": "/Easy-Health-Website-87-/static/media/Victoria.928cd1ef9491730c1f690675176161c0.svg",
     "static/media/next-arrow.png": "/Easy-Health-Website-87-/static/media/next-arrow.986567fed81191fbfa74.png",
     "static/media/back-arrow.png": "/Easy-Health-Website-87-/static/media/back-arrow.d404881a762761d5e744.png",
     "static/media/hero_telehealth.svg": "/Easy-Health-Website-87-/static/media/hero_telehealth.4afbdd94342d40155ce5.svg",
@@ -49,12 +50,12 @@
     "static/media/location-icon.svg": "/Easy-Health-Website-87-/static/media/location-icon.351870b901810823cc7db9f86f4e54f8.svg",
     "static/media/iphone_store.svg": "/Easy-Health-Website-87-/static/media/iphone_store.36bb7e39c3d2d09d6a2917e4e44267b0.svg",
     "index.html": "/Easy-Health-Website-87-/index.html",
-    "main.91210b29.css.map": "/Easy-Health-Website-87-/static/css/main.91210b29.css.map",
-    "main.98f8cfc1.js.map": "/Easy-Health-Website-87-/static/js/main.98f8cfc1.js.map",
+    "main.75780bde.css.map": "/Easy-Health-Website-87-/static/css/main.75780bde.css.map",
+    "main.e01589a5.js.map": "/Easy-Health-Website-87-/static/js/main.e01589a5.js.map",
     "488.d139680a.chunk.js.map": "/Easy-Health-Website-87-/static/js/488.d139680a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91210b29.css",
-    "static/js/main.98f8cfc1.js"
+    "static/css/main.75780bde.css",
+    "static/js/main.e01589a5.js"
   ]
 }
