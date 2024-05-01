@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Easy-Health-Website-87-/static/css/main.6fa0ad3f.css",
+    "main.css": "/Easy-Health-Website-87-/static/css/main.71bd07bb.css",
     "main.js": "/Easy-Health-Website-87-/static/js/main.98f8cfc1.js",
     "static/js/488.d139680a.chunk.js": "/Easy-Health-Website-87-/static/js/488.d139680a.chunk.js",
     "static/media/physician_bg.svg": "/Easy-Health-Website-87-/static/media/physician_bg.e17a883234f2f4b71f55.svg",
@@ -49,12 +49,12 @@
     "static/media/location-icon.svg": "/Easy-Health-Website-87-/static/media/location-icon.351870b901810823cc7db9f86f4e54f8.svg",
     "static/media/iphone_store.svg": "/Easy-Health-Website-87-/static/media/iphone_store.36bb7e39c3d2d09d6a2917e4e44267b0.svg",
     "index.html": "/Easy-Health-Website-87-/index.html",
-    "main.6fa0ad3f.css.map": "/Easy-Health-Website-87-/static/css/main.6fa0ad3f.css.map",
+    "main.71bd07bb.css.map": "/Easy-Health-Website-87-/static/css/main.71bd07bb.css.map",
     "main.98f8cfc1.js.map": "/Easy-Health-Website-87-/static/js/main.98f8cfc1.js.map",
     "488.d139680a.chunk.js.map": "/Easy-Health-Website-87-/static/js/488.d139680a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fa0ad3f.css",
+    "static/css/main.71bd07bb.css",
     "static/js/main.98f8cfc1.js"
   ]
 }
