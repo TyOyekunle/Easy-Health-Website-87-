@@ -3,11 +3,13 @@
 
 .Services-hero{
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     background: linear-gradient(to right, #33B2C2 1.04%,
      rgba(51, 178, 194, 0.60) 39.97%,
      rgba(51, 178, 194, 0.10) 82.6%),
      url('../../assets/serviceshomepicture.png');
+     background-repeat: no-repeat;
+     background-size: cover;
   
     
 
@@ -15,7 +17,7 @@
 .picture_page{
     position: relative;
    width: 100%;
-   height: 100vh;
+   height: 100%;
    
     
 }
@@ -33,3 +35,44 @@ line-height: normal;
 font-family: 'Courier New', Courier, monospace;
 top: 50%;
 }
+
+/* media query */
+
+@media (min-width: 1439px){
+    .Services-hero{
+        width: 100%;
+        
+    } 
+}
+
+@media (min-width: 1023px) and (max-width: 1438px){
+    .Services-hero{
+        width: 150%; 
+        background: cover;
+        background-color: red;
+    } 
+    .picture_page{
+        position: relative;
+       width: 100%;      
+    }
+}
+
+
+@media (min-width: 766px) and (max-width: 1022px){
+    .Services-hero{
+        width: 150%;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .Services-hero{
+        width: 200%;
+      
+        
+    } 
+}
+
+
+
+
+

@@ -2,6 +2,7 @@
     width: 100%; 
     background: #b1eae3;
     color: #0c3b98;
+    height: 100px;
     /* padding: 4px, 0; */
     /*4px for top and bottom, sides 0 */
     /* position: fixed; */
@@ -113,11 +114,12 @@ line-height: normal;
 
 /* media query */
 
-@media (min-width: 1025px) and (max-width: 1440px){
+@media (min-width: 1025px) and (max-width: 1441px){
     
     .navbar{
         padding-bottom: 30px;
-        width: 100%;
+        width: 150%;
+      
        
       
     }

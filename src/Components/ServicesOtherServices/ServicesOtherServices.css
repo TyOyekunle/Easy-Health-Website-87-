@@ -29,7 +29,7 @@ text-align: center;
  grid-template-rows: 2fr;
  gap: 2em;
 padding: 20px;
-margin: 2px 1em;
+margin: 2px;
 
 }
 
@@ -88,3 +88,97 @@ margin: 2px 1em;
      color: #fff;
  }
  
+
+
+ @media (min-width: 1023px) and (max-width: 1440px){
+.other_services{
+    width: 150%;
+}
+.other_services h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+color: var(--Accent-Main-Accent, #073169);
+text-align: center;
+}
+.other_services span{
+    background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 44px;
+}
+.other_services_div p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #025F7D;
+    padding-right: 2px 10px;
+
+}
+
+ }
+
+ @media (min-width: 766px) and (max-width: 1022px){
+    .other_services{
+        width: 150%;
+    }
+ }
+
+ @media screen and (max-width: 430px){
+    .other_services{
+        width: 200%;
+    }
+    .other_services_div{
+        width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 2fr;
+     gap: 2em;
+    padding: 10px;
+    margin: 2px;
+    
+    }
+    .Appointment_booking h4{
+        font-size: 16px;
+        font-weight: 800;
+      line-height: 27px;
+      text-align:center;
+      color: var(--Accent-Main-Accent, #073169);
+    }
+    .other_services_div p{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 5px;
+        color: #025F7D;
+        padding-right: 2px;
+        text-align: center;
+    
+    }
+    .other_services_div img{
+        width: 100px;
+        height: 123px;
+      border-radius: 50%;
+     margin-left: 50px;
+     background:none;
+    
+        align-self: center;
+    }
+    .other_services span{
+        background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        font-size: 44px;
+    }
+    
+ }
+

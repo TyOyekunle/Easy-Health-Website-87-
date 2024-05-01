@@ -42,7 +42,7 @@ return (
          <li><Link className='anchor-link' offset={50} to='/our-services' ><p onClick={()=>setMenu("About")}>  Services  </p></Link> {menu==="About"? <img className='underline' src={underline} alt=''/>:<></>}</li>
         <li> <Link className='anchor-link' offset={50} to='/our-services'><p onClick={()=>setMenu("AboutPage")}>About Us</p></Link> {menu==="AboutPage"? <img className='underline' src={underline} alt=''/>:<></>}</li>
         <li><Link className='anchor-link' offset={50} to='/testimonials' ><p onClick={()=>setMenu("Testimonials")}>Testimonials</p></Link>{menu==="Testimonials"? <img className='underline' src={underline} alt=''/>:<></>}</li>
-      <li><Link className='anchor-link' offset={50} to='/Contact' ><p onClick={()=>setMenu("Contact")}>Contact Us</p></Link>{menu==="Contact"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+      <li><Link className='anchor-link' offset={50} to='/contact-us' ><p onClick={()=>setMenu("Contact")}>Contact Us</p></Link>{menu==="Contact"? <img className='underline' src={underline} alt=''/>:<></>}</li>
         
         
           {/* <li> <Link to="/contact-us"> Contact Us </Link></li> */}

@@ -23,9 +23,11 @@
 .footer-div-text span{
     font-size: 10px;
 font-weight: 400;
+color: var(--Secondary-04, #6190ED);
 }
 .footer-div-top p{
-    color: var(--Secondary-04, #6190ED);
+   
+
 /* H3: Regular */
 font-family: Nunito;
 font-size: 12px;
@@ -100,6 +102,12 @@ font-weight: 800;
     width: 40px;
 }
 
+
+@media (min-width: 1025px) and (max-width: 1441px){
+    .footer{
+        width: 150%;
+    }
+}
 
 @media (max-width: 430px){
     .footer{

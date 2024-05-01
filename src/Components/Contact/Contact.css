@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+   width: 100%;
 }
 
 .contact-col{
@@ -62,11 +62,34 @@ border-radius: 20px;
     margin: 20px 0;
 }
 
-@media (max-width: 412px){
+ 
+@media (min-width: 1441px){
+
+}
+
+ @media (min-width: 1023px) and (max-width: 1440px){
     .contact{
-        width: 200%;
-        display: flex;
+       width: 150%;
     }
     
 }
+@media (min-width: 766px) and (max-width: 1022px){
+    .contact{
+        width: 150%;
+     }
+ }
+
+ @media (min-width: 431px) and (max-width: 765px){
+    .contact{
+        width: 150%;
+      
+        
+    }
+ }
+
+ @media screen and (max-width: 430px){
+    .contact{
+        width: 200%;
+     }
+ }
 
