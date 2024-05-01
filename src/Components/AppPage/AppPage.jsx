@@ -3,7 +3,7 @@ import './AppPage.css'
 import Home from '../../assets/Home.png'
 import AppStoreDownload from '../../assets/apple-store-download.jpg'
 import PlayStoreDownload from '../../assets/google-play-download.png'
-import doublephone from '../../assets/doublephone.png'
+import doublephone from '../../assets/doublephone.svg'
 
 export const AppPage = () => {
     return (
