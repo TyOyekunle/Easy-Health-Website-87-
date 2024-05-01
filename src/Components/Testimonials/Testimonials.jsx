@@ -8,6 +8,7 @@ import Doctor from '../../assets/doctor.png'
 import DrOlawale from '../../assets/DrOlawale.png'
 import back_arrow from '../../assets/back-arrow.png'
 import next_arrow from '../../assets/next-arrow.png'
+import Victoria from '../../assets/Victoria.svg'
 
  export const Testimonials = () => {
  // code for the slider and arrows.
@@ -68,10 +69,10 @@ import next_arrow from '../../assets/next-arrow.png'
           <li>
           <div className='slide'>
               <div className='user-info'>
-                  <img src={Doctor} alt="" className='testimonial_picture' />
+                  <img src={Victoria} alt="" className='testimonial_picture' />
                   <div>
                     <img src={star} alt="" className='five_star_icon' />
-                    <h3> Dr Agu </h3></div>
+                    <h3> Dr Victoria </h3></div>
                 </div>
                 <p> Easy health has brought us closer to our patients</p>
               </div>
