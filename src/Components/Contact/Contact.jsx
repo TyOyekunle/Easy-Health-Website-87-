@@ -2,8 +2,9 @@ import React from 'react'
 import './Contact.css'
 import envelope_icon from '../../assets/envelope.png'
 import email from '../../assets/email.png'
-import phone from '../../assets/phone.svg'
-import location from '../../assets/location-icon.svg'
+import phone from '../../assets/phone.png'
+import location from '../../assets/location.png'
+import design from '../../assets/contactform-design.png'
 
 export const Contact = () => {
     const [result, setResult] = React.useState("");
@@ -37,15 +38,15 @@ export const Contact = () => {
         <div id='Contact' className='contact container'>
             <div className='contact-col'>
               <div className='contact-col-left'>    
-                <h3> Contact Information <img src={envelope_icon} alt="" /></h3>
+                <h1> Contact Information <img src={envelope_icon} alt="" /></h1>
                 <p>
                     Please complete the form  to connect with a member
                     team and we would get back to you immediately.
                 </p>
                 <ul>
-                    <li> <img src={email} alt="" /> oyekunlefpog@gmail.com</li>
-                    <li> <img src={phone}alt="" /> +234-8086133006</li>
-                    <li> <img src={location} alt="" /> 2, Tech4Dev Avenue, VI, Lagos</li>
+                    <li> <img src={email} alt="" /> Easyhealth@gmail.com</li>
+                    <li> <img src={phone}alt="" /> (237) 681-812-255 <br /> (237) 666-331-894</li>
+                    <li> <img src={location} alt="" /> 222, Norman williams, Ikoyi, Lagos, Nigeria</li>
                 </ul>
                 </div>
             </div>
