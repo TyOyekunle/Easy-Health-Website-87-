@@ -4,8 +4,8 @@ import logo from '../../assets/logo.svg'
 import Home from '../../assets/Home.png'
 import Playstore from '../../assets/playstore.png'
 import Iphone_store from '../../assets/iphone_store.svg'
-import email from '../../assets/email.png'
-import phone from '../../assets/phone.svg'
+import message from '../../assets/Message.png'
+import call from '../../assets/Call.png'
 import location from '../../assets/location-icon.svg'
 import footericons from '../../assets/footericons.svg'
 import linkedinicon from '../../assets/linkedinicon.svg'
@@ -41,9 +41,9 @@ Remember, you’re not alone. <br /> Reach out, seek support, <br />and prioriti
             <div className='footer-list'>
                 <p> Contact</p>
                 <ul>
-                    <li> <img src={phone}alt="" /> +234-8086133006 </li>
-                    <li><img src={email} alt="" /> oyekunlefpog@gmail.com</li>
-                    <li><img src={location} alt="" /> 2, Tech4Dev Avenue, VI, Lagos</li>
+                    <li> <img src={call}alt="" /> (237) 681-812-255 </li>
+                    <li><img src={message} alt="" /> Easyhealth@gmail.com</li>
+                    <li><img src={location} alt="" /> 222, Norman williams, Ikoyi, Lagos, Nigeria</li>
                 </ul>
             </div>
             <div className='footer-list'>
