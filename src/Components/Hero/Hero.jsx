@@ -21,7 +21,7 @@ export const Hero = () => {
               <p>Empower yourself with Easy Health, your one-stop solution for accessible and reliable healthcare services. Connect with qualified healthcare professionals, 
                 access educational resources, and take control of your well-being—all from the convenience of your fingertips.</p> <br /> 
             
-                <button className='btn'><Link className='anchor-link' offset={50} to="/contact-us"> Try Free Consultation</Link></button>
+                <div className='btn'><Link className='anchor-link' offset={50} to="/contact-us"> Try Free Consultation</Link></div>
          
                 </div>
             

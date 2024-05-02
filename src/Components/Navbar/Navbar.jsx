@@ -40,15 +40,15 @@ return (
 
         <li><Link className='anchor-link'  to='/' > <p onClick={()=>setMenu("Hero")} >  Home </p></Link> {menu==="Hero"? <img className='underline' src={underline} alt=''/>:<></>} </li>
          <li><Link className='anchor-link' offset={50} to='/our-services' ><p onClick={()=>setMenu("About")}>  Services  </p></Link> {menu==="About"? <img className='underline' src={underline} alt=''/>:<></>}</li>
-        <li> <Link className='anchor-link' offset={50} to='/our-services'><p onClick={()=>setMenu("AboutPage")}>About Us</p></Link> {menu==="AboutPage"? <img className='underline' src={underline} alt=''/>:<></>}</li>
+        <li> <Link className='anchor-link' offset={50} to='/about-us'><p onClick={()=>setMenu("AboutPage")}>About Us</p></Link> {menu==="AboutPage"? <img className='underline' src={underline} alt=''/>:<></>}</li>
         <li><Link className='anchor-link' offset={50} to='/testimonials' ><p onClick={()=>setMenu("Testimonials")}>Testimonials</p></Link>{menu==="Testimonials"? <img className='underline' src={underline} alt=''/>:<></>}</li>
       <li><Link className='anchor-link' offset={50} to='/contact-us' ><p onClick={()=>setMenu("Contact")}>Contact Us</p></Link>{menu==="Contact"? <img className='underline' src={underline} alt=''/>:<></>}</li>
         
         
           {/* <li> <Link to="/contact-us"> Contact Us </Link></li> */}
 
-        <li><button className='bluebtn'> <Link to="/login"> Login </Link> </button></li>
-        <li><button className='btn'>  <Link to="/signup"> Signup</Link></button></li>
+        <li><div className='bluebtn'> <Link to="/login"> Login </Link> </div></li>
+        <li><div className='nav_btn'>  <Link to="/signup"> Signup</Link></div></li>
        
        
         {/* <li><AnchorLink className='anchor-link'  href='#Hero' > <p onClick={()=>setMenu("Hero")} >  Home </p></AnchorLink> {menu==="Hero"? <img className='underline' src={underline} alt=''/>:<></>} </li>
