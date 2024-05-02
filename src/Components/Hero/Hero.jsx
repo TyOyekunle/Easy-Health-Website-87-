@@ -8,6 +8,8 @@ import image_15k from '../../assets/15K+.png'
 import image_50 from '../../assets/50+.png'
 import {Link} from 'react-router-dom'
 import hero_telehealth_img from '../../assets/hero_telehealth.png'
+import physician_bg from '../../assets/physician_bg.svg'
+
 
 
 export const Hero = () => {
