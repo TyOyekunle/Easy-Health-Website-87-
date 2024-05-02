@@ -16,9 +16,11 @@
 }
 .contact-col-left{
 background: url('../../assets/contactform-design.png'); 
+/* background-size: contain; */
+background-position: right;
 border-radius: 20px;
 border-radius: 15px;
-background: var(--Secondary-08, #0C3B98);
+/* background: var(--Secondary-08, #0C3B98); */
 
 }  
 
