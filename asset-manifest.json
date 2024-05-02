@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Easy-Health-Website-87-/static/css/main.2bf43ee5.css",
-    "main.js": "/Easy-Health-Website-87-/static/js/main.95815c32.js",
+    "main.css": "/Easy-Health-Website-87-/static/css/main.5752d00a.css",
+    "main.js": "/Easy-Health-Website-87-/static/js/main.08ff1dc7.js",
     "static/js/488.d139680a.chunk.js": "/Easy-Health-Website-87-/static/js/488.d139680a.chunk.js",
     "static/media/physician_bg.svg": "/Easy-Health-Website-87-/static/media/physician_bg.e17a883234f2f4b71f55a35412976551.svg",
     "static/media/Mask Group.svg": "/Easy-Health-Website-87-/static/media/Mask Group.4caf3f7996f556efb490ac7fe518ca46.svg",
@@ -47,11 +47,11 @@
     "static/media/first-hero-image.png": "/Easy-Health-Website-87-/static/media/first-hero-image.cea1ba25678f4563c450.png",
     "static/media/hero_telehealth.png": "/Easy-Health-Website-87-/static/media/hero_telehealth.14b196909efaf682b33f.png",
     "static/media/google-play-download.png": "/Easy-Health-Website-87-/static/media/google-play-download.f6929d2a02b133918fd4.png",
-    "static/media/contact-img.png": "/Easy-Health-Website-87-/static/media/contact-img.dcc231d871538b3ab3f8.png",
     "static/media/Easyhealth Logo.svg": "/Easy-Health-Website-87-/static/media/Easyhealth Logo.ba5f7e1b891b5f779bd356d71b6f4c0b.svg",
     "static/media/headerlogo.svg": "/Easy-Health-Website-87-/static/media/headerlogo.fa798f5393ea3235fad44cdeee1e05f6.svg",
     "static/media/logo.svg": "/Easy-Health-Website-87-/static/media/logo.fa798f5393ea3235fad44cdeee1e05f6.svg",
     "static/media/doctor.png": "/Easy-Health-Website-87-/static/media/doctor.8cdc78429debdd5fe473.png",
+    "static/media/contactform-design.png": "/Easy-Health-Website-87-/static/media/contactform-design.5e896d0fd7f49d84a891.png",
     "static/media/play_icon.png": "/Easy-Health-Website-87-/static/media/play_icon.cb9fc1968b8fb1d6a958.png",
     "static/media/Mary.png": "/Easy-Health-Website-87-/static/media/Mary.6dc89f554120aab6d6d7.png",
     "static/media/DrIsabellaOnos.png": "/Easy-Health-Website-87-/static/media/DrIsabellaOnos.3306613b63eaadf6eebc.png",
@@ -66,7 +66,6 @@
     "static/media/Transparency.svg": "/Easy-Health-Website-87-/static/media/Transparency.44f4542ad58363b03e71816894abc969.svg",
     "static/media/Group 9.svg": "/Easy-Health-Website-87-/static/media/Group 9.39fc21b85a68e6e7bc2b654c61627d57.svg",
     "static/media/Group 8.svg": "/Easy-Health-Website-87-/static/media/Group 8.89484a5339f631bbaf59b5d3f73fd08e.svg",
-    "static/media/phone.svg": "/Easy-Health-Website-87-/static/media/phone.231c690a60a23e756b45c5d1d6c256e6.svg",
     "static/media/location-icon.svg": "/Easy-Health-Website-87-/static/media/location-icon.351870b901810823cc7db9f86f4e54f8.svg",
     "static/media/Convenience.svg": "/Easy-Health-Website-87-/static/media/Convenience.294c5c9b1369eaf20721882a849a26d9.svg",
     "static/media/iphone_store.svg": "/Easy-Health-Website-87-/static/media/iphone_store.36bb7e39c3d2d09d6a2917e4e44267b0.svg",
@@ -75,12 +74,12 @@
     "static/media/show.svg": "/Easy-Health-Website-87-/static/media/show.83b4018a1f8c5cf87f50c740adfde6aa.svg",
     "static/media/Facebook.svg": "/Easy-Health-Website-87-/static/media/Facebook.07eb9adf38f90e5fecad73cb10d3a727.svg",
     "static/media/Reliability.svg": "/Easy-Health-Website-87-/static/media/Reliability.e1e192f2acd4e49aa95a9b8ac391da45.svg",
-    "main.2bf43ee5.css.map": "/Easy-Health-Website-87-/static/css/main.2bf43ee5.css.map",
-    "main.95815c32.js.map": "/Easy-Health-Website-87-/static/js/main.95815c32.js.map",
+    "main.5752d00a.css.map": "/Easy-Health-Website-87-/static/css/main.5752d00a.css.map",
+    "main.08ff1dc7.js.map": "/Easy-Health-Website-87-/static/js/main.08ff1dc7.js.map",
     "488.d139680a.chunk.js.map": "/Easy-Health-Website-87-/static/js/488.d139680a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bf43ee5.css",
-    "static/js/main.95815c32.js"
+    "static/css/main.5752d00a.css",
+    "static/js/main.08ff1dc7.js"
   ]
 }
