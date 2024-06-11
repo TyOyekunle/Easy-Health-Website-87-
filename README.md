@@ -1,3 +1,33 @@
+This project was worked on by:
+Frontend team:
+Victoria Oluwatoyin Oyekunle
+Sumayyah Muhibudeen
+
+Cyber Security team:
+Oluchi Obijuru
+
+Product Management:
+Wuraola Ologunro
+Yvonne Ojo
+Zainab Adeshina
+Nchere Abbey
+
+Product Design:
+Maryam Alakoso
+Mary Ndukwe
+Owosho Deborah 
+
+Mobile App:
+Precious Ojiaku
+
+Data Science:
+Deborah Ozuem
+Elizabeth Olagunju
+Emmaculate Tagha
+Esther Adeyera
+Esther Adegbami
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
