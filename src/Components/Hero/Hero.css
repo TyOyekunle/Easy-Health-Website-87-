@@ -16,10 +16,8 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-  
-   
+  }
 
-}
 
 .hero_left{
 display: block;
@@ -36,10 +34,7 @@ display: block;
 }
 
 .decore{
-  position: absolute;
-  top: 27%;
-  left: 17%;
- width: 35%;
+  display: none;
 }
 .hero-text h1{
   font-size: 38px;
@@ -58,6 +53,14 @@ padding-left: 15px;
   font-weight: 800;
   line-height: normal;
 }
+em{
+  background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .hero-text p {
   max-width: 600px;
 word-wrap: break-word;
@@ -96,6 +99,9 @@ font-family: Nunito;
     width: 50%;
     left: 5px;
     
+  }
+  .btn{
+    margin-left: 15px;
   }
 .icon_group{
     display: block;
@@ -153,10 +159,7 @@ font-family: Nunito;
      margin-top: -22px;
        }
     .decore{
-      position: absolute;
-      top: 22.5%;
-      left: 60%;
-     width: 50%;
+     display: none;
   }
   .hero_icon_class{
     display: inline-flex;
@@ -227,6 +230,14 @@ margin-top: -10px;
       -webkit-text-fill-color: transparent;
       font-family: 'Courier New', Courier, monospace;
     }
+    .hero-text span{
+      color: var(--Secondary-08, #0C3B98);
+      font-family: Nunito;
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
     
     .decore{
       /* top: 40%;
@@ -282,10 +293,8 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 
-
-  
-
     }
+
     .hero-text p{
   
     color: var(--White-10, #525252);
@@ -337,7 +346,7 @@ padding-bottom: 20px;
   }
 
    
- @media  (min-width: 690px)and  (max-width: 764px){
+ @media  (min-width: 691px)and  (max-width: 764px){
   .hero{
     margin-top: -20px;
      width: 150%;
@@ -379,11 +388,24 @@ line-height: normal;
     font-weight: 800;
     line-height: normal;
   }
-  .decore{
+  /* .decore{
     top: 20%;
     width: 78%;
     left: 100px;
-  }
+  } */
+  .decore{
+    display: none;
+   }
+   em{
+     background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-family: 'Courier New', Courier, monospace;
+   }
+   .btn{
+     margin-left: 15px;
+   }
   
   .hero_icon_class{
     display: inline-flex;
@@ -403,77 +425,16 @@ line-height: normal;
 }
 
   
- @media  (min-width: 431px)and  (max-width: 490px){
+
+  
+  @media  (min-width: 495px)and  (max-width: 690px){
     .hero{
       margin-top: -20px;
-       width: 150%;
-     
-    }
-    .hero-right-image{
-      margin-top: 30%;
-      height: 60%;
-      
-    }
-    .hero-text h1{
-      margin-top: 2px;
-   color: var(--txt, #1A1A1A);
-font-family: Nunito;
-font-size: 42px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-
-    }
-
-    .hero-text p{
-  
-    color: var(--White-10, #525252);
-text-align: justify;
-font-family: Nunito;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-    
-    }
-    .hero-text span{
-      color: var(--Secondary-08, #0C3B98);
-      font-family: Nunito;
-      font-size: 42px;
-      font-style: normal;
-      font-weight: 800;
-      line-height: normal;
-    }
-    .decore{
-      top: 20%;
-      width: 78%;
-      left: 100px;
+      width: 150%;
     }
     
-    .hero_icon_class{
-      display: inline-flex;
-      align-items: center;
-      justify-content: space-between;
-      position: absolute;
-      bottom: 0px;
-      width: 70%;
-      left: 5px;
-      position: absolute;
-   bottom: 20px;
-    }
-    .hero_icon_class img{
-      width: 100px;
-      padding-left: 20px;
-    }
-  }
-
-  @media  (min-width: 496px)and  (max-width: 690px){
-    .hero_left{
-
-    }
     .hero-text h1{
-      margin-top: 2px;
+      margin-top: -15px;
    color: var(--txt, #1A1A1A);
 font-family: Nunito;
 font-size: 32px;
@@ -487,7 +448,7 @@ line-height: normal;
   color: var(--White-10, #525252);
 text-align: justify;
 font-family: Nunito;
-font-size: 12px;
+font-size: 15px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -512,6 +473,9 @@ line-height: normal;
     -webkit-text-fill-color: transparent;
     font-family: 'Courier New', Courier, monospace;
   }
+  .btn{
+    margin-left: 15px;
+  }
   
   .hero_icon_class{
    
@@ -520,7 +484,7 @@ line-height: normal;
     justify-content: space-between;
     position: absolute;
     bottom: 0px;
-    width: 70%;
+    width: 60%;
     left: 5px;
     position: absolute;
  bottom: 20px;
@@ -531,6 +495,95 @@ line-height: normal;
   
   }
 }
+
+
+@media  (min-width: 431px)and  (max-width: 494px){
+  .hero{
+    margin-top: -20px;
+     width: 150%;
+   
+  }
+  .hero-right-image{
+    margin-top: 30%;
+    height: 60%;
+    
+  }
+  .hero-text h1{
+    margin-top: 2px;
+ color: var(--txt, #1A1A1A);
+font-family: Nunito;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+  }
+
+  .hero-text p{
+
+  color: var(--White-10, #525252);
+text-align: justify;
+font-family: Nunito;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+  
+  }
+  /* .hero-text span{
+    color: var(--Secondary-08, #0C3B98);
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  } */
+  /* .decore{
+    top: 20%;
+    width: 78%;
+    left: 100px;
+  } */
+
+  .decore{
+    display: none;
+   }
+   .hero-text span{
+    color: var(--Secondary-08, #0C3B98);
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  em{
+    background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .btn{
+    margin-left: 15px;
+  }
+  
+  .hero_icon_class{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    width: 60%;
+    left: 5px;
+    position: absolute;
+ bottom: 20px;
+  }
+  .hero_icon_class img{
+    width: 70px;
+    padding-left: 20px;
+  }
+}
+
   @media  (min-width: 377px)and  (max-width: 430px){
  
     .hero{
@@ -556,13 +609,25 @@ line-height: normal;
       position: relative;  
      
   }
+  .hero-text span{
+    color: var(--Secondary-08, #0C3B98);
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  em{
+    background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+  }
   
   .decore{
-      position: absolute;
-      top: 24%;
-      left: 30%;
-     width: 40%;
-  }
+    display: none;
+   }
   .hero-text h1{
     color: var(--txt, #1A1A1A);
    font-family: Nunito;
@@ -671,12 +736,23 @@ line-height: normal;
        
     }
     
-    .decore{
+    /* .decore{
         position: absolute;
         top: 24%;
         left: 30%;
        width: 40%;
-    }
+    } */
+
+    /* .decore{
+      display: none;
+    } */
+    em{
+    background: var(--Linear, linear-gradient(90deg, #16CDAC 0.21%, #0C3B98 99.79%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+  }
     .hero-text h1{
       color: var(--txt, #1A1A1A);
      font-family: Nunito;
