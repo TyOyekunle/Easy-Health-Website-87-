@@ -587,7 +587,7 @@ line-height: normal;
   @media  (min-width: 377px)and  (max-width: 430px){
  
     .hero{
-      margin-top: -50px;
+      margin-top: -20px;
        width: 200%;
       display: block;
        
@@ -713,7 +713,7 @@ line-height: normal;
     
  
       .hero{
-        margin-top: -50px;
+        margin-top: -20px;
          width: 200%;
         display: block;
          
