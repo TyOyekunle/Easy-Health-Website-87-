@@ -148,8 +148,8 @@ line-height: normal;
 @media (min-width: 766px) and (max-width: 1023px){
    
     .navbar{
-        margin: 20px 3px;
-        padding-bottom: 20px;
+        margin: 3px;
+        padding-bottom: 10px;
      
         width: 150%;
     }
@@ -174,23 +174,28 @@ line-height: normal;
         flex-direction: column;
         align-items: start;
         top: 0;
-        gap: 30px;
-        background-color: #1F0016;
+        gap: 50px;
+        /* background: var(--Secondary-08, aliceblue); */
+        background: var(--Primary-Main-Primary, #16C0AC);
         width: 350px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
          cursor: pointer;
+         
     }
     .nav-menu :hover{
         color: red
     }
     .nav-menu li{
-        font-size: 30px;
+        
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
+    }
+    .nav-menu li a {
+        font-size: 50px;
     }
 }
 
@@ -214,7 +219,8 @@ line-height: normal;
    
     .nav-mob-close {
        
-        background: var(--Secondary-08, aliceblue);
+        /* background: var(--Secondary-08, aliceblue); */
+        background: var(--Primary-Main-Primary, #16C0AC);
      }
      .nav-mob-open{
         display: block;
